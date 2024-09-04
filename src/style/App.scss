@@ -18,6 +18,7 @@
 .logo{
 font-size: 2.5rem;
 font-weight: bolder;
+cursor: pointer;
 }
 .Header-container {
   display: flex;
@@ -92,6 +93,7 @@ font-weight: bolder;
   line-height: 1.5;
   max-height: 3em;
   font-size: small;
+  color: aliceblue;
 }
 .cart-price {
   font-size: small;
@@ -110,4 +112,56 @@ font-weight: bolder;
   padding: 0.2rem 0rem;
   justify-content: space-between;
   color: aliceblue;
+}
+.add-to-cart{
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
+
+.ProductPage-container{
+  height: 90dvh;
+  width: 100%;
+  display: flex;
+}
+.ProductPage-image{
+  width: 40%;
+  height: 80%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: rgb(165, 165, 165);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.ProductPage-detail-container{
+  width: 40%;
+  margin: 0rem 1rem;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  background-color: #555;
+  border-radius: 8px;
+  max-height: 80vh;
+  min-height: 50vh;
+  overflow: auto;
+  padding: 1rem;
+}
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Rating{
+  border: #fff;
+}
+.header-item-list{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
 }
