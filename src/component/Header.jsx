@@ -116,7 +116,6 @@ export default function Header() {
                   width: "20rem",
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "center",
                 }}
               >
                 <Grid2 display="flex" justifyContent="space-between">
@@ -124,7 +123,6 @@ export default function Header() {
                   <IconButton
                     sx={{
                       display: "flex",
-                      flex: "end",
                     }}
                     onClick={() => handleClose()}
                   >
