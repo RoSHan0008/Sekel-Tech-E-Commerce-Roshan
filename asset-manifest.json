@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sekel-Tech-E-Commerce-Roshan/static/css/main.74c07a0f.css",
+    "main.js": "/Sekel-Tech-E-Commerce-Roshan/static/js/main.819081b9.js",
+    "index.html": "/Sekel-Tech-E-Commerce-Roshan/index.html",
+    "main.74c07a0f.css.map": "/Sekel-Tech-E-Commerce-Roshan/static/css/main.74c07a0f.css.map",
+    "main.819081b9.js.map": "/Sekel-Tech-E-Commerce-Roshan/static/js/main.819081b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74c07a0f.css",
+    "static/js/main.819081b9.js"
+  ]
+}
